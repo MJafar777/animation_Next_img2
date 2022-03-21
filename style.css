@@ -1,0 +1,35 @@
+:root {
+  --color-primary: #823ba4;
+  --color-primary-white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: var(--color-primary);
+}
+.container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 45rem auto;
+  color: var(--color-primary-white);
+  text-align: center;
+}
+.following {
+  font-size: 10rem;
+  padding: 4rem;
+}
+.text {
+  font-size: 4rem;
+}
+.img:hover {
+  transform: scale(1.1);
+}
